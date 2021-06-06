@@ -1,0 +1,74 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  top: 100px;
+  width: 100%;
+
+  background-image: url(https://th.bing.com/th/id/OIP.8okjAe2_2mtH_IrQuhzOKAHaEo?w=292&h=182&c=7&o=5&dpr=1.55&pid=1.7);
+  background: #eee;
+  padding: 0 16px;
+}
+
+header {
+  background-color: rgba(4, 13, 31, 0.8);
+  margin: auto -16px;
+  padding: 16px 32px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+header h1 {
+  text-align: center;
+  color: #fff;
+  font-family: "McLaren", cursive;
+  font-weight: 200;
+}
+.about {
+  left: 250px;
+  background: rgb(221, 243, 242);
+  border-radius: 7px;
+  box-shadow: 0 2px 5px #ccc;
+  padding: 10px;
+  width: 270px;
+  height: 120px;
+  margin: 16px;
+  float: left;
+}
+
+footer {
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+}
+
+footer p {
+  color: rgba(0, 0, 0, 0.993);
+}
+.note {
+  left: 250px;
+  background: rgb(221, 243, 242);
+  border-radius: 7px;
+  box-shadow: 0 2px 5px #ccc;
+  padding: 10px;
+  width: 270px;
+  height: 120px;
+  margin: 16px;
+  float: left;
+}
+.note h1 {
+  font-size: 1.1em;
+  margin-bottom: 6px;
+}
+.note p {
+  font-size: 1.1em;
+  margin-bottom: 10px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
